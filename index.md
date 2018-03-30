@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+    <div id="dev">
+    	<button class="btn" ="btn1">点击新增按钮</button>
+    </div>
+	 
+	 <script>
+	 	
+	 </script>
+</body>
+</html>
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/huangrenren123/xiaohuangren.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
