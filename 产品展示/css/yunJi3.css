@@ -1,0 +1,203 @@
+
+/* 导航栏样式 */
+#news-tabs .active{
+    background: url(../images/activebg.png) no-repeat 0px 0px;
+
+     
+}
+#news-tabs .active a{
+	border-bottom:none ;
+	color: #fff;
+}
+#news-tabs{
+	 background: url(../images/demopic-17.png) no-repeat left bottom;
+     background-size: 100% 50%;
+     width:83%; 
+     height:76%;
+     margin:0 auto;
+}
+#news-tabs li a{
+	color:#0d7ee1;
+
+}
+#news-tabs > li > a:hover {
+    background-color: transparent;
+}
+#news-tabs .active a:focus{
+	background: url(../images/activebg.png) no-repeat 0px 0px;
+}
+@media (max-width: 768px){
+    ul#news-tabs{
+    background: url(../images/tabbg.png) no-repeat 0px 0px;
+    background-size: 100% 100%;
+    width:83%; 
+    height:76%; 
+    min-width: 100px;
+    margin:0 auto;
+    float: none;
+    /* margin-top: 13%; */
+    padding-top: 10%;
+    }
+    ul#news-tabs .active {
+       background: none;
+    }
+    ul#news-tabs > li {
+        /* float: left; */
+        padding:0px 5%;
+        width:100%;
+    }
+    ul#news-tabs .active a{
+        border-bottom:2px solid #f3df0c;
+    }
+    ul#news-tabs > li:last-child{
+        margin-bottom:0;
+    }
+    ul#news-tabs > li > a {
+        display: block;
+         width: 100%;
+        height: 60px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: bold;
+        color:#fff;
+        white-space: nowrap;
+    }
+    ul#news-tabs > li > a:hover {
+         color:none; 
+         background-color: #0d81e3; 
+    }
+    ul#news-tabs .active a:focus{
+        background: #0e80e3;
+    }
+    div#yjManCont .banner .netVersion button {
+        position: fixed;
+        bottom: 4%;
+        left:24%;
+        
+    }
+    div#yjManCont .banner .productDes .proOverview .proOverText {
+        width: 100%;
+        float: none;
+    }
+    div#yjManCont .banner .productDes .proOverview img {
+        width: 100%;
+        float: none;
+    }
+    div#yjManCont .banner .productDes h4{
+        margin: 10px 0px 10px;
+    }
+
+    div#yjManCont .banner .productDes .proFeature .proFeaText .imgPic,
+    div#yjManCont .banner .productDes .proFeature .proFeaText ul{
+        float: none;
+        width: 100%;
+    }
+    div#yjManCont .banner .productDes .proOverview .proOverText>div {
+        width: 100%;
+    }
+
+}
+/* logo 样式 */
+ #logoDev {
+    position: relative;
+    padding-top: 16%;
+}
+#logoDev .bgpic{
+    position: absolute;
+    left: -12%;
+    top: -4%;
+    width: 130%;
+    height:151%;
+}
+#logoDev img{
+    width:48%;
+} 
+/* 主要内容样式 */
+#yjManCont .titleHead{
+     background: url(../images/demopic-24.png) no-repeat 0px 0px;
+     height:10%;
+     background-size: 100% 100%;
+
+}
+#yjManCont .titleHead h2{
+	margin: 0px 0px 0px 34px;
+    padding: 2.9%;
+    color: #fff;
+    font-size: 4rem;
+}
+#yjManCont .banner{
+	height: 90%;
+}
+#yjManCont .banner .netVersion{
+	height: 12%;
+	margin: 0 14% 0 8%;
+}
+#yjManCont .banner .netVersion button{
+	height: 3.3em;
+    width: 11.5em;
+    background: url(../images/demopic-19.png) no-repeat 0px 11px;
+    background-size: 100% 109%;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 2.3rem;
+
+}
+#yjManCont .banner .productDes{
+	margin: 1.2% 14% 0 8%;
+}
+#yjManCont .banner .productDes .proOverview{
+	vertical-align: middle;
+}
+#yjManCont .banner .productDes h4{
+	font-size: 2rem;
+	font-weight: bold;
+	color:#127fe1;
+	margin: 20px 0px 25px;
+}
+#yjManCont .banner .productDes .proOverview img{
+	width: 45%;
+    float: right;
+}
+/* #yjManCont .banner .productDes .proOverview .proOverText{
+    font-size: 1.7rem;
+} */
+#yjManCont .banner .productDes .proOverview .proOverText>div{
+    width: 45%;
+    float: left;
+}
+#yjManCont .banner .productDes .proFeature .proFeaText{
+    font-size: 1.3rem;
+}
+#yjManCont .banner .productDes .proFeature .proFeaText ul{
+    width: 60%;
+    float: left;
+}
+#yjManCont .banner .productDes .proFeature .proFeaText li span{
+	/* float: left; */
+    display: block;
+}
+
+#yjManCont .banner .productDes .proFeature .proFeaText .imgPic{
+	float: right;
+	width: 36%;
+	height: 75%;
+} 
+#yjManCont .banner .productDes .proFeature .proFeaText img{
+	width: 100%;
+}
+#yjManCont .banner .productDes .proFeature .proFeaText p{
+	/* display: inline-block; */
+	width: 70%;
+	/* float: right; */
+	font-size: 1.7rem;
+}
+#yjManCont .banner .productDes .proFeature .proFeaText .threeTitle{
+    color:#127fe1;
+    background:#eef3f6;
+    padding:1.2% 3% ;
+    font-size: 1.6rem;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+} 
