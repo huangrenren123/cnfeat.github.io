@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+     <!-- 指定网页的编码-->
+    <meta charset="utf-8">
+    <!-- 如果是ie浏览器 使用最新的渲染引擎来解析页面 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 移动的端的适口设置-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/css/share.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css"/>
+
+    <!-- 为了解决ie9以下　不支持h5的标签和媒体查询  -->
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+     <!-- 主题模块-->
+    <div class="ces-news">
+        <div class="container">
+          <!-- 头部logo -->
+           <span class="logoHead clearfix hidden-xs">
+                <div id="logoDev" class="col-lg-2 col-md-3 col-sm-3 col-xs-3 logoDev">
+                   <img src="images/logomdpi.png" alt="">
+                   <p class="logoMsg">信息发展研究院</p>
+                    <p class="bgpic"></p>
+                </div>
+
+                <div id="phone-number"  class="col-lg-10 col-md-9 col-sm-9 ">
+                        <span class="ces-tel">全国统一服务热线</span>
+                        <span class="number">400 720 0100</span>
+                        <span class="ces-icon-weixin">
+                          <span class="wxerweima">
+                            <img src="images/wxerweima.jpg" alt="">
+                            <p>官方微信</p>
+                          </span>
+                        </span>
+                        <!-- <span class="ces-icon-qq"></span> -->
+                        <span class="ces-icon-msg" onclick="window.open('https://mail.cesgroup.com.cn/owa')"></span>
+              </div> 
+              </span>
+              <!-- tab栏导航  -->
+            <div class="row ">
+                
+                <!--导航条-->
+                <nav class="navbar  ces-navbar col-lg-2 col-md-3 col-sm-3 col-xs-12">
+                    <div class="container">
+                        <!-- 导航头部-->
+                        <div class="navbar-header">
+                            <div class=" fixHead clearfix col-xs-12 hidden-sm hidden-lg hidden-md"> 
+                                <div id="logoDev" class=" col-xs-3 hidden-sm hidden-lg hidden-md">
+                                   <img src="images/logomdpi.png" alt="">
+                                </div>
+                                <div id="iphone-method"  class="col-xs-9 hidden-sm hidden-lg hidden-md">
+                                          <img class="phoneLogo" src="images/phoneicon.png" alt="" title="">
+                                          <span class="showNumber">400 720 0100</span>
+                                          <img class="wxlogo" src="images/wxmdpi.png" alt="">
+                                          <span class="wxerweima">
+                                            <img src="images/wxerweima.jpg" alt="">
+                                            <p>官方微信</p>
+                                          </span>  
+                                          <!-- <img src="images/QQmdpi.png" alt=""> -->
+                                          <img src="images/msmdpi.png" onclick="window.open('https://mail.cesgroup.com.cn/owa')" alt="">
+                                          <button type="button" class="navbar-toggle collapsed hidden-sm hidden-lg hidden-md" data-toggle="collapse" data-target="#nav-body" aria-expanded="true">
+                                          </button>
+                                </div> 
+                                
+                            </div>
+                            
+                            
+                            
+                        </div>
+                        <!-- 导航的主体-->
+                        <div class="collapse navbar-collapse "  aria-expanded="true" id="nav-body">
+                            <!-- 左侧导航-->
+                            <ul class="nav navbar-nav news-tabs">
+                                <li  class="active">
+                                  <a href="#home"  data-toggle="tab">产品信息</a>
+                                </li>
+                                <li>
+                                  <a href="#aboutUs"   data-toggle="tab"> 关于我们</a>
+                                  <span class="wating"></span>
+                                </li>
+                                <li>
+                                  <a href="#typicalCases"  data-toggle="tab">典型案例</a>
+                                  <span class="wating"></span>
+                                </li>
+                                <li>
+                                  <a href="#scienceTechnology"  data-toggle="tab">科技资质</a>
+                                  <span class="wating"></span>
+                                </li>
+                                <li>
+                                  <a href="#honor"  data-toggle="tab">荣誉</a>
+                                  <span class="wating"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                 <!-- Tab 内容 -->
+                <div class="col-lg-10 col-md-9 col-sm-9 col-xs-12" id="mainTab" >
+                     
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <ul class="clearfix">
+                               <li>
+                                    <a class="entry" href="#">
+                                           <img src="images/zhuisuo.png" alt="">
+                                           <span>
+                                               <p>
+                                                   <span>追</span>
+                                                   <span>索</span>
+                                               </p>
+                                               <p>食品安全信息追溯系统</p>
+                                           </span>
+                                          <span class="wating">敬请期待...</span>
+                                    </a>
+                                   <!--  <span class="wating">敬请期待</span> -->
+                               </li>
+                               <li> 
+                                    <a href="#">
+                                           <img src="images/xietong.png" alt="">
+                                           <span>
+                                               <p>
+                                                   <span>协</span>
+                                                   <span>同快车</span>
+                                               </p>
+                                               <p>政务协同办公系统</p>
+                                           </span>
+                                    </a>
+                               </li>
+                                <li>
+                                    <a href="yunJi2.html">
+                                           <img src="images/yunji.png" alt="">
+                                           <span>
+                                               <p>
+                                                   <span>云</span>
+                                                   <span>基</span>
+                                               </p>
+                                               <p>平台化设计理念</p>
+                                           </span>
+                                    </a>
+                               </li>
+                                
+                               
+                               <li>
+                                    <a href="#">
+                                           <img src="images/guangxi.png" alt="">
+                                           <span>
+                                               <p>
+                                                   <span>光</span>
+                                                   <span>玺</span>
+                                               </p>
+                                               <p>文博一体化管理系统</p>
+                                           </span>
+                                    </a>
+                               </li>
+                               <li>
+                                    <a href="guangDian2.html">
+                                           <img src="images/guangdian.png" alt="">
+                                           <span>
+                                               <p>
+                                                   <span>光</span>
+                                                   <span>典</span>
+                                               </p>
+                                               <p>档案信息资源管理系统</p>
+                                           </span>
+                                    </a>
+                               </li>
+                               <li>
+                                    <a href="#">
+                                           <img src="images/zhinong.png" alt="">
+                                           <span>
+                                               <p>
+                                                   <span>智</span>
+                                                   <span>农信发</span>
+                                               </p>
+                                               <p>智慧农业信息系统</p>
+                                           </span>
+                                    </a>
+                               </li>
+                               <li>
+                                    <a href="#">
+                                           <img src="images/zhiwu.png" alt="">
+                                           <span>
+                                               <p>
+                                                   <span>智</span>
+                                                   <span>圄</span>
+                                               </p>
+                                               <p>监狱综合业务管理系统</p>
+                                           </span>
+                                    </a>
+                               </li>
+                               <li>
+                                    <a href="#">
+                                           <img src="images/lingqi.png" alt="">
+                                           <span>
+                                               <p>
+                                                   <span>灵</span>
+                                                   <span>器</span>
+                                               </p>
+                                               <p>基础工具，便捷效率</p>
+                                           </span>
+                                    </a>
+                               </li>
+                            </ul>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="aboutUs">关于我们</div>
+                        <div role="tabpanel" class="tab-pane" id="typicalCases">典型案例</div>
+                        <div role="tabpanel" class="tab-pane" id="scienceTechnology">科技资质</div>
+                        <div role="tabpanel" class="tab-pane" id="honor">荣誉</div>
+                    </div>
+                    
+                </div> 
+                
+            </div>
+            <span class="footnots">信息发展研究院</span>
+        </div>
+    </div>
+   
+    <ol class="sharebar clearfix sns-share">    
+      <!--     <a href="javascript:void(0)" class="weibo"><i class="share_but share_weibo">微博</i></a><a href="javascript:void(0)" class="wechat"><i class="share_but share_weixin">微信</i></a><a href="javascript:void(0)" class="qzone"><i class="share_but share_qqzone">QQ空间</i></a> -->
+     <div class="social-share" data-sites="weibo,wechat,qzone"></div>
+
+    
+    </ol>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="lib/js/jquery.share.min.js"></script>
+    <script type="text/javascript">
+       
+    </script>
+</body>
+</html>
