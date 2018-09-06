@@ -797,6 +797,14 @@ html,body{
 #erweima img{
 	width:7.8rem;
 }
+.man5{
+	position: absolute;
+    left: 4.5rem;
+    top: 198.7rem;
+}
+.man5 img{
+	width: 3.4rem;
+}
 .fistMove{
 	
 	left: 200px!important;

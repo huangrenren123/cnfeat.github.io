@@ -585,7 +585,11 @@
 	   	  		var newDot = {
 	   	  			"x":newX,"y":newY
 	   	  		}
-	   	  		
+	   	  		if(newY>=198.8){
+	   	  			$(".man5").hide();
+	   	  		}else{
+	   	  			$(".man5").show();
+	   	  		}
 	   	  		return newDot;
 	   	  	}
 	   	  }
@@ -612,7 +616,7 @@
 				$mainImg.attr("src","images/man3.png");
 			}	
 			if(newdot >= map["55"].y ){
-				$mainImg.attr("src","images/man1.gif");
+				$mainImg.attr("src","images/man4.png");
 			}
 	   		//判断左侧
 	   		if(minX - maxX < 0){
