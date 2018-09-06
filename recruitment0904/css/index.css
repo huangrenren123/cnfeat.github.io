@@ -793,6 +793,7 @@ html,body{
     position: absolute;
     left: 6.2rem;
     top: 234rem;
+    z-index: 200;
 }
 #erweima img{
 	width:7.8rem;

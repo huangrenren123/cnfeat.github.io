@@ -450,7 +450,10 @@
 			var scroll = new BScroll($wrapper, {
 				    probeType:2,
 				    momentum:false,
-				    tap:true
+				    tap:true,
+				    preventDefaultException:{
+				    	tagName: /^(img|TEXTAREA|BUTTON|IMG)$/
+				    }
 				 });
 				  
 		   scroll.on("beforeScrollStart",function(){
