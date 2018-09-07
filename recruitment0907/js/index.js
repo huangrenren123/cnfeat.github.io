@@ -451,7 +451,7 @@
 				    momentum:false,
 				    tap:true,
 				    preventDefaultException:{
-				    	tagName: /^(img|IMG)$/
+				    	className:/(^|\s)erweima(\s|$)/
 				    }
 				 });
 				  
