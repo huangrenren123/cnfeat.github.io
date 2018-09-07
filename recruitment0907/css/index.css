@@ -29,6 +29,9 @@ html,body{
 #main{
 	position: relative;
 	width: 20rem;
+	height:247.6rem;
+	background: url(../images/bag.png) no-repeat 0 0;
+	background-size: 100% 100%;
 	transition-duration:0s!important;
 }
 #man1{
