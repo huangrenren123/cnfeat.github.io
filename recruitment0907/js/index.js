@@ -723,9 +723,9 @@
    document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
 
             // 发送给好友
-                alert("222")
+              alert(WeixinJSBridge); 
             WeixinJSBridge.on('menu:share:appmessage', function(argv){
-
+				 alert("222");
                 shareFriend();
 
             });
